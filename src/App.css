@@ -1,0 +1,68 @@
+.App {
+  width: 300px;
+  min-height: 450px;
+  text-align: center;
+  background-color: blueviolet;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.tittle {
+  color: brown;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.selected {
+  font-weight: bold;
+  color: black;
+}
+
+.navItem {
+  font-weight: bold;
+
+  display: inline-block;
+  width: 65px;
+  height: 50px;
+  border: 1px solid black;
+  margin-right: auto;
+  padding: 10px;
+  margin: 6px;
+  font-size: small;
+  background-color: green;
+}
+
+header {
+  padding: 20px;
+  font-size: medium;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.container {
+  padding: 0px 30px 0px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarContainer {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.input {
+  margin: 5px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  width: 100px;
+  height: 20px;
+}
+
+/* textarea {
+  overflow: visible;
+} */
